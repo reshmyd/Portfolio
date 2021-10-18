@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/background.jpg");
+  color: #3d4849;
+  width: 100vw;
+  text-align: center;
+  padding: 5px;
+}
+
+header {
+  height: 100vh;
+}
+.header {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_name {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.header_arrow {
+  color: #50656e;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.header_arrow:hover {
+  color: #38474d;
+}
+
+.projects_title {
+  font-size: 20px;
+}
+
+.projects_container {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.projects_grid {
+  display: grid;
+  grid-template-columns: 260px;
+  grid-auto-rows: 570px;
+  gap: 30px;
+}
+
+.project {
+  background-color: #ebd0e1;
+  height: 570px;
+  width: 260px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.project_imageContainer {
+  display: flex;
+  justify-content: center;
+  height: 220px;
+  width: 250px;
+}
+
+.project_image {
+  border-radius: 10px;
+  height: 220px;
+  width: auto;
+  cursor: pointer;
+}
+
+.project_descriptionContainer {
+  color: #50656e;
+  width: 250px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 16px;
+}
+
+/* .project_descriptionContainer .project_description {
+  text-align: left !important;
+} */
+
+.project_descriptionContainer span {
+  color: #50656e;
+  cursor: pointer;
+  /* margin: 0 5px; */
+}
+
+hr {
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 750px){
+  .header_name {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .header_jobTitle {
+    font-size: 25px;
+  }
+
+  .header_arrow {
+    font-size: 36px;
+  }
+
+  .projects_title {
+    font-size: 30px;
+  }
+  
+  .projects_grid {
+    grid-template-columns: 360px 360px;
+    grid-auto-rows: 700px;
+  }
+
+  .project {
+    height: 700px;
+    width: 360px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .project_imageContainer {
+    height: 300px;
+    width: 340px;
+  }
+
+  .project_image {
+    height: 300px;
+  }
+
+  .project_descriptionContainer {
+    width: 340px;
+    height: 380px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 800px){
+  .projects_container {
+    margin: 100px 0;
+  }
+
+  .projects_grid {
+    gap: 50px;
+  }
+}
+
+@media only screen and (min-width: 1000px){
+  .header_name {
+    font-size: 46px;
+  }
+
+  .header_jobTitle {
+    font-size: 34px;
+  }
+
+  .header_arrow {
+    font-size: 46px;
+  }
+
+  .projects_title {
+    font-size: 40px;
+  }
+
+  .projects_grid {
+    grid-template-columns: 420px 420px;
+    grid-auto-rows: 850px;
+  }
+
+  .project {
+    width: 420px;
+    height: 850px;
+  }
+
+  .project_imageContainer {
+    height: 350px;
+    width: 400px;
+  }
+
+  .project_image {
+    height: 350px;
+  }
+
+  .project_descriptionContainer {
+    width: 400px;
+    height: 430px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .projects_grid {
+    gap: 70px;
+  }
+}
+
+@media only screen and (min-width: 1450px){
+  .projects_grid {
+    grid-template-columns: 420px 420px 420px;
+  }
+}
+
+

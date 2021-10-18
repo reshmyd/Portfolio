@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reshmy Devaraju</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/439833cb0c.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <section class="header">
+      <p class="header_name">RESHMY DEVARAJU</p>
+      <p class="header_jobTitle">-SOFTWARE DEVELOPER-</p>
+    </section>
+    <a href="#projects" class="header_arrow">
+      <span class="fas fa-chevron-down"></span>
+    </a>
+  </header>
+  
+  <main>
+    <section class="projects">
+      <p id="projects" class="projects_title">MY PROJECTS</p>
+      
+      <div class="projects_container">
+        <div class="projects_grid">
+          
+          <article class="project">
+            <div class="project_imageContainer">
+              <a href="https://reshmyd.github.io/Connect-4/" target="_blank">
+                <img class="project_image connect-4" src="./images/connect-4.jpg" alt="Connect-4 game UI" >
+              </a>
+            </div>
+            <hr>
+            <div class="project_descriptionContainer">
+              <h3 className="project_title">Connect-4</h3>
+              <p className="project_description">Built a two player game of Connect-4 using HTML, CSS & vanilla JS. The program is broken into small functions each carrying out one task. Its programmed to search for a winner horizontally, vertically and across two diagonals after the 7th turn. If it finds one the game is terminated and the user is given an option to restart a new one.</p>
+              <p><a href="https://github.com/reshmyd/Connect-4/" target="_blank" class="gitHubIcon">
+                <span class="fab fa-github"></span>
+              </a>
+              <a href="https://reshmyd.github.io/Connect-4/" target="_blank" class="externalLinkIcon">
+                <span class="fas fa-external-link-alt"></span>
+              </a></p>
+           </div>
+          </article>
+
+          <article class="project">
+            <div class="project_imageContainer">
+              <a href="https://reshmyd.github.io/Calculator/" target="_blank">
+                <img class="project_image calculator" src="./images/calculator.jpg" alt="Calculator UI" >
+              </a>
+            </div>
+            <hr>
+            <div class="project_descriptionContainer">
+              <h3 className="project_title">Calculator</h3>
+              
+              <p className="project_description">Designed a calculator using HTML, CSS & vanilla JavaScript based on Apple IOS design. Made subtle improvements to the layout that I think is missing on the common phone version. The Calculator is end to end tested using Cypress npm package.</p>
+              <p><a href="https://github.com/reshmyd/Calculator/" target="_blank" class="gitHubIcon">
+                <span class="fab fa-github"></span>
+              </a>
+              <a href="https://reshmyd.github.io/Calculator/" target="_blank" class="externalLinkIcon">
+                <span class="fas fa-external-link-alt"></span>
+              </a></p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project_imageContainer">
+              <a href="https://reshmyd.github.io/punk-api/" target="_blank">
+                <img class="project_image punk-api" src="./images/punk-api.jpg" alt="Punk-API project UI" >
+              </a>
+            </div>
+            <hr>
+            <div class="project_descriptionContainer">
+              <h3 className="project_title">Punk-API</h3>
+              
+              <p className="project_description">An app built in React using Brewdog's Punk API to fetch data and display it on the application. An user can search and filter their beer selection by a range of properties. Componentized the app into container components and presentational components. Used array iterating methods to create information about each beer as an individual card component.</p>
+              <p><a href="https://github.com/reshmyd/punk-api/" target="_blank" class="gitHubIcon">
+                <span class="fab fa-github"></span>
+              </a>
+              <a href="https://reshmyd.github.io/punk-api/" target="_blank" class="externalLinkIcon">
+                <span class="fas fa-external-link-alt"></span>
+              </a></p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project_imageContainer">
+              <a href="https://reshmyd.github.io/morse-code-tdd/" target="_blank">
+                <img class="project_image morse-code" src="./images/morse-code-tdd.jpg" alt="Text to Morse translator UI" >
+              </a>
+            </div>
+            <hr>
+            <div class="project_descriptionContainer">
+              <h3 className="project_title">Text to Morse Translator</h3>
+              
+              <p className="project_description">A text to morse code translator created in a test-driven development environment. Uses jest npm package for unit testing. Test cases where first written before programming the functionality.</p>
+              <p className="icon_container"><a href="https://github.com/reshmyd/morse-code-tdd/" target="_blank" class="gitHubIcon">
+                <span class="fab fa-github"></span>
+              </a>
+              <a href="https://reshmyd.github.io/morse-code-tdd/" target="_blank" class="externalLinkIcon">
+                <span class="fas fa-external-link-alt"></span>
+              </a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+    </section>
+  </main>
+  
+</body>
+</html>
